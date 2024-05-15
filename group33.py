@@ -1,2 +1,2 @@
 def tweet():
-    print("let's tweet")
+  return "let's tweet"
