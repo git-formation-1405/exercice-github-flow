@@ -1,2 +1,3 @@
 def tweet():
 	return "Bonjour, ici groupe 1."
+suite
