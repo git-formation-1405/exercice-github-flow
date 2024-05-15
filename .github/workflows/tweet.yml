@@ -1,0 +1,17 @@
+name: Tweet
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    
+    - name: Clone le dépôt au commit testé
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      run: sudo apt update; sudo apt install -y python3
+    
+    - name: Lit les tweets
+      run: python main.py
