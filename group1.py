@@ -1,2 +1,2 @@
 def tweet():
-	return "Bonjour, voici le groupe 1."
+	return "Aujourd'hui temps est presque ensoleillé"
